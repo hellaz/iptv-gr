@@ -1,12 +1,12 @@
 {
-  "name": "iptv-org.github.io",
+  "name": "hellaz.github.io/iptv-gr/",
   "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite dev",
     "build": "NODE_OPTIONS=--max_old_space_size=4096 vite build",
     "preview": "vite preview",
-    "postbuild": "npx svelte-sitemap -d https://iptv-org.github.io -o docs",
+    "postbuild": "npx svelte-sitemap -d https://hellaz.github.io/iptv-gr/ -o docs",
     "postinstall": "./src/load.sh"
   },
   "devDependencies": {
